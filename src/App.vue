@@ -26,7 +26,7 @@
       <h2>Recipe Finder</h2>
       <v-container fluid>
         <v-row justify="center" align="center" mb-4>
-          <v-col cols="12" md="6">
+          <v-col cols="12" md="8">
             <v-text-field
               v-model="ingredientInput"
               label="Enter ingredients (comma-separated)"
@@ -37,8 +37,8 @@
               <!-- Radio buttons -->
               <v-col>
                 <v-radio-group v-model="searchType">
-                  <v-radio label="Include Ingredients" value="includeIngredients"></v-radio>
-                  <v-radio label="Only Ingredients" value="onlyIngredients"></v-radio>
+                  <v-radio label="Include all Ingredients" value="includeIngredients"></v-radio>
+                  <v-radio label="Only use these Ingredients" value="onlyIngredients"></v-radio>
                 </v-radio-group>
               </v-col>
 
@@ -101,7 +101,7 @@
                 <h4>Level:</h4> {{ recipe.level }}
                 <h4>Time to Make:</h4> {{ recipe.time }}
                 <h4>Category:</h4> {{ recipe.category }}
-                {{ recipe.note }}
+                {{ recipe.note }}<br>
                 {{ recipe.author }}
               </v-expansion-panel-content>
             </v-expansion-panel>
