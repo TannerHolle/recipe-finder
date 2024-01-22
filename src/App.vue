@@ -98,11 +98,11 @@
                   <li v-for="(direction, idx) in directions" :key="idx">{{ direction }}</li>
                 </ol>
                 <br>
-                <h4>Level:</h4> {{ recipe.level }}
-                <h4>Time to Make:</h4> {{ recipe.time }}
-                <h4>Category:</h4> {{ recipe.category }}
-                {{ recipe.note }}<br>
-                {{ recipe.author }}
+                <span v-if="recipe.level"><b>Level:</b> {{ recipe.level }}<br></span>
+                <span v-if="recipe.time"><b>Time to Make:</b> {{ recipe.time }}<br></span>
+                <span v-if="recipe.category"><b>Category:</b> {{ recipe.category }}<br></span>
+                <span v-if="recipe.note"><b>Tip:</b> {{ recipe.note }}<br></span>
+                <span v-if="recipe.author"><b>Credit:</b> {{ recipe.author }}<br></span>
               </v-expansion-panel-content>
             </v-expansion-panel>
             <div v-if="recipes.length > itemsPerPage" class="text-center mt-4">
