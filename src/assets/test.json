@@ -1,0 +1,26 @@
+    [{
+        "id": 1,
+        "title": "test 1",
+        "ingredients": [
+            "1 (1-pound) bag Goya 16 Bean Soup Mix",
+            "4 to 6 cups good chicken stock, preferably homemade"
+        ]
+    },
+    {
+        "id": 1,
+        "title": "test 2",
+        "ingredients": [
+            "1 (1-pound) bag Goya 16 Bean Soup Mix",
+            "4 to 6 cups good chicken breast, preferably homemade"
+        ]
+    },
+    {
+        "id": 1,
+        "title": "test 3",
+        "ingredients": [
+            "1 (1-pound) bag Goya 16 Bean Soup Mix",
+            "4 to 6 cups good chicken stock, preferably homemade",
+            "4 to 6 cups good chicken breast, preferably homemade"
+        ]
+    }
+  ]
