@@ -197,7 +197,7 @@ export default {
         'beef': ['stock', 'broth'],
         'butter': ['peanut'],
         'sugar': ['brown'],
-        'cheese': ['cream'],
+        'cheese': ['cream', 'cottage'],
         // Add other variations as needed
       };
 
